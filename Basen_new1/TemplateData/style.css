@@ -3,6 +3,12 @@ body {
     margin: 0
 }
 
+body {
+    font-family:  "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  background: #EEEEEE;
+}
+
 #unity-container {
 
 }
@@ -10,7 +16,7 @@ body {
     #unity-container.unity-desktop {
             position: absolute;
         background: #DDDDDD;
-	width: min(60vw, 132vw);
+	width: min(60vw, 132vh);
 	border: solid;
 	height: 90vh;
         left: 50%;
