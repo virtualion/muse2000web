@@ -6,6 +6,7 @@
     <title>Virtualion</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="../popup.css">
   </head>
   <body>
 
@@ -20,12 +21,28 @@
         </div>
       </div>
 
-      <div id="unity-footer">
-        <div id="unity-webgl-logo-back"></div>
+     <div id="unity-footer">
+        <div id="unity-webgl-logo-back">
+
+<a href="https://twitter.com/intent/tweet?text=This%20museum%20is%20awesome!"><img src="../images/twitter.png" width="28px"></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=This%20museum%20is%20awesome!"><img src="../images/face.png" width="28px"></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=This%20museum%20is%20awesome!"><img src="../images/line.png" width="28px"></a>
+<label for="trigger" class="open_btn">&lt;/&gt;</label>
+</div>
+
+<div class="popup_wrap">
+<input id="trigger" type="checkbox">
+<div class="popup_overlay">
+<label for="trigger" class="popup_trigger"></label>
+<div class="popup_content">
+<label for="trigger" class="close_btn">×</label>
+<p>HPにミュージアムを埋め込むコード<br><br>&lt;iframe src="https://virtualion.github.io/muse2000web/Basen_new1/index_sub.html" width="600" height="400">&lt;/iframe&gt;</p>
+</div></div></div>
+
+
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Curated by <a href="https://virtualion.co.jp/index_en.html">Virtualion Inc.</a></div>
-      </div>
-    </div>
+      </div>    </div>
 
 
 <style>
